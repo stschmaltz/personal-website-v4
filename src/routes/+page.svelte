@@ -6,7 +6,7 @@
 	<div class="banner">
 		This site is currently being updated and I made this as a quick temp version to replace my old
 		website which was very out of date (2019). Thanks for visiting and stay tuned for the real
-		version! 🎉
+		version!
 	</div>
 	<h1>Shane Schmaltz 🚀</h1>
 	<p>
