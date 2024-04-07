@@ -1,4 +1,4 @@
-# Shane Schmaltz's Personal Website (Temporary Version)
+# Shane Schmaltz's Personal Website
 
 ## Overview
 
