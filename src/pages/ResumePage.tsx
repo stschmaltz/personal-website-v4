@@ -9,7 +9,7 @@ const EXPERIENCE = [
     period: "Mar 2025 – Present",
     tech: "TypeScript, React, Next.js, Node.js, PostgreSQL, AWS",
     bullets: [
-      "Building the platform end to end as a founding engineer, streamlining college-transfer pathways for students across North America.",
+      "Edtech startup using AI to help students navigate college-transfer pathways.",
       "Full ownership across the stack — architecture, feature development, infrastructure, and shipping directly to users.",
     ],
   },
@@ -20,7 +20,7 @@ const EXPERIENCE = [
     period: "Aug 2024 – Mar 2025",
     tech: "Elixir, GraphQL, TypeScript, React, AWS",
     bullets: [
-      "Led the Payments team handling multi-million-dollar daily transaction volumes in Elixir — owned architecture decisions, technical scoping, and delivery across the payments domain.",
+      "Led the Payments team at a salon and spa SaaS platform handling multi-million-dollar daily transaction volumes in Elixir — owned architecture decisions, technical scoping, and delivery.",
       "Managed five engineers while staying hands-on. Ran 1:1s, code reviews, and mentorship focused on leveling engineers up, not just keeping them busy.",
       "Drove cross-functional alignment with product, design, and marketing — translated business goals into technical plans and shipped them on time.",
     ],
@@ -45,7 +45,7 @@ const EXPERIENCE = [
     tech: "TypeScript, GraphQL, MongoDB, Serverless, Terraform, AWS",
     bullets: [
       "Employee #22. Helped scale from zero to 1M+ users and ~800 employees through 3.5 years of hypergrowth.",
-      "Architected the in-house payment processor from scratch — card issuance, activation, replacement, and a real-time rewards engine that became Neo's core product differentiator.",
+      "Built the real-time rewards engine from scratch — became Neo's core product differentiator. Led the card team across issuance, activation, and replacement.",
       "Led performance refactors that took critical pages from ~5s to ~400ms, directly improving retention and engagement metrics.",
       "Grew multiple engineers from senior to team lead, building the leadership bench the org needed to scale.",
     ],
@@ -160,10 +160,10 @@ export default function ResumePage() {
         <div className="h-px bg-glacier/40" />
 
         <p className="mt-6 leading-relaxed text-silver">
-          Staff-level engineer with over 10 years of experience building and scaling fintech and
-          SaaS products. Comfortable owning complex systems end to end, leading difficult refactors
-          and migrations, and leveling up the engineers around me. I ship fast, I build things that
-          hold up and I'm not a jerk.
+          Staff-level engineer with over 10 years of experience building and scaling products at
+          startups and high-growth companies. Comfortable owning complex systems end to end, leading
+          difficult refactors and migrations, and leveling up the engineers around me. I ship fast,
+          I build things that hold up and I'm not a jerk.
         </p>
 
         <section className="mt-10">

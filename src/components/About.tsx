@@ -40,9 +40,9 @@ export default function About() {
             </p>
             <p className="mt-4 leading-relaxed text-silver">
               Outside of work I'm usually snowboarding in the Rockies, 3D printing
-              something I'll never finish, playing drums in my garage, or running
-              D&D campaigns that go off the rails. I live with my wife and two cats
-              who run the house.
+              something, playing drums in my basement, or running D&D campaigns
+              that go off the rails. I live with my wife and two cats who run
+              the house.
             </p>
 
             <div className="mt-8 flex flex-wrap gap-3">

@@ -6,28 +6,28 @@ const EXPERIENCE = [
     company: "EdVisorly",
     period: "Present",
     description:
-      "Founding engineer building the platform end to end — helping students navigate college-transfer pathways across North America.",
+      "Edtech startup using AI to help students navigate college-transfer pathways. Full ownership across the stack.",
   },
   {
     role: "Staff Software Engineer / Engineering Manager",
     company: "Boulevard",
     period: "Previously",
     description:
-      "Payments fintech. Ran the team handling multi-million-dollar daily volumes while staying hands-on. Managed five engineers and kept shipping.",
+      "Salon and spa SaaS. Led the payments team handling multi-million-dollar daily volumes. Managed five engineers while staying hands-on.",
   },
   {
     role: "Staff Software Engineer",
     company: "Jobber",
     period: "Previously",
     description:
-      "Owned and hardened invoicing systems behind multi-billion-dollar annual transaction volumes. Led a complex ACH integration that unlocked enterprise clients.",
+      "Home service SaaS. Invoicing tech lead — hardened billing systems, led ACH integration, and owned the invoicing domain across web and mobile.",
   },
   {
     role: "Staff Software Engineer & Team Lead",
     company: "Neo Financial",
     period: "Previously",
     description:
-      "Employee #22. Helped scale from zero to 1M+ users. Built the payment processor and rewards engine from scratch — the product people actually signed up for.",
+      "Employee #22. Helped scale from zero to 1M+ users. Built the rewards system from scratch and led the card team.",
   },
 ];
 

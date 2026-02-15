@@ -11,13 +11,13 @@ const INTERESTS = [
   {
     title: "3D Printing",
     description:
-      "I'm always printing something — organizers, minis for D&D, stuff for around the house. I've started more projects than I've finished, which is part of the fun.",
+      "I'm always printing something — organizers, minis for D&D, stuff for around the house. It's one of those hobbies where every finished print gives you three new ideas.",
     emoji: "🖨️",
   },
   {
     title: "Drumming",
     description:
-      "Self-taught and still learning. I play in my garage, mostly to whatever's in my headphones. I built Practice Pal partly to track my own progress.",
+      "Self-taught and still learning. I play in my basement, mostly to whatever's in my headphones. I built Practice Pal partly to track my own progress.",
     emoji: "🥁",
   },
   {

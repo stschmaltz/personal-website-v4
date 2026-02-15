@@ -37,7 +37,7 @@ export default function Hero() {
           </p>
 
           <p className="mt-6 max-w-lg text-lg leading-relaxed text-silver">
-            Staff engineer with over a decade in fintech and SaaS.
+            Staff engineer with over a decade at startups and high-growth companies.
             I care deeply about building the right thing for the user,
             owning complex systems, and leveling up the people around me.
           </p>
