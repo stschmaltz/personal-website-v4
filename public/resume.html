@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shane Schmaltz – Resume</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 10.5pt;
+      line-height: 1.45;
+      color: #1a1a1a;
+      max-width: 8.5in;
+      margin: 0 auto;
+      padding: 0.5in 0.6in;
+    }
+
+    a { color: #1a1a1a; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    h1 {
+      font-size: 20pt;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 4px;
+    }
+
+    .contact {
+      font-size: 9.5pt;
+      color: #444;
+      margin-bottom: 2px;
+    }
+
+    .contact a { color: #444; }
+
+    .divider {
+      border: none;
+      border-top: 1.5px solid #1a1a1a;
+      margin: 10px 0;
+    }
+
+    .divider-light {
+      border: none;
+      border-top: 0.5px solid #ccc;
+      margin: 8px 0;
+    }
+
+    h2 {
+      font-size: 10pt;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 8px;
+    }
+
+    .job { margin-bottom: 12px; }
+
+    .job-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+
+    .job-title {
+      font-size: 10.5pt;
+      font-weight: 700;
+    }
+
+    .job-date {
+      font-size: 9.5pt;
+      color: #555;
+      white-space: nowrap;
+    }
+
+    .job-company {
+      font-size: 9.5pt;
+      color: #555;
+      margin-bottom: 1px;
+    }
+
+    .job-tech {
+      font-size: 9pt;
+      color: #666;
+      font-style: italic;
+      margin-bottom: 4px;
+    }
+
+    ul {
+      padding-left: 16px;
+      margin-top: 3px;
+    }
+
+    li {
+      margin-bottom: 2px;
+    }
+
+    .section { margin-bottom: 14px; }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: 140px 1fr;
+      gap: 2px 8px;
+      font-size: 10pt;
+    }
+
+    .skills-label {
+      font-weight: 600;
+      color: #333;
+    }
+
+    .projects-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4px 24px;
+    }
+
+    .project-name { font-weight: 600; }
+    .project-desc { font-size: 9.5pt; color: #444; }
+
+    .education-line {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    @media print {
+      body { padding: 0.4in 0.5in; }
+      a { color: #1a1a1a !important; }
+    }
+  </style>
+</head>
+<body>
+
+<h1>Shane Schmaltz</h1>
+<div class="contact">
+  <a href="mailto:stschmaltz@gmail.com">stschmaltz@gmail.com</a> ·
+  Calgary, AB, Canada
+</div>
+<div class="contact">
+  <a href="https://www.linkedin.com/in/stschmaltz">linkedin.com/in/stschmaltz</a> ·
+  <a href="https://github.com/stschmaltz">github.com/stschmaltz</a> ·
+  <a href="https://shaneschmaltz.com">shaneschmaltz.com</a>
+</div>
+
+<hr class="divider" />
+
+<div class="section" style="margin-bottom: 10px;">
+  <p style="font-size: 10pt; line-height: 1.5; color: #333;">
+    Staff-level engineer with over 10 years of experience building and scaling fintech and SaaS products. Comfortable owning complex systems end to end, leading difficult refactors and migrations, and leveling up the engineers around me. I ship fast, I build things that hold up and I'm not a jerk.
+  </p>
+</div>
+
+<div class="section">
+  <h2>Experience</h2>
+
+  <div class="job">
+    <div class="job-header">
+      <span class="job-title">Staff Software Engineer</span>
+      <span class="job-date">Mar 2025 – Present</span>
+    </div>
+    <div class="job-company">EdVisorly – Remote (Calgary, AB)</div>
+    <div class="job-tech">TypeScript, React, Next.js, Node.js, PostgreSQL, AWS</div>
+    <ul>
+      <li>Building the platform end to end as a founding engineer, streamlining college-transfer pathways for students across North America.</li>
+      <li>Full ownership across the stack — architecture, feature development, infrastructure, and shipping directly to users.</li>
+    </ul>
+  </div>
+
+  <hr class="divider-light" />
+
+  <div class="job">
+    <div class="job-header">
+      <span class="job-title">Staff Software Engineer / Engineering Manager</span>
+      <span class="job-date">Aug 2024 – Mar 2025</span>
+    </div>
+    <div class="job-company">Boulevard – Remote (Calgary, AB)</div>
+    <div class="job-tech">Elixir, GraphQL, TypeScript, React, AWS</div>
+    <ul>
+      <li>Led the Payments team handling multi-million-dollar daily transaction volumes in Elixir — owned architecture decisions, technical scoping, and delivery across the payments domain.</li>
+      <li>Managed five engineers while staying hands-on. Ran 1:1s, code reviews, and mentorship focused on leveling engineers up, not just keeping them busy.</li>
+      <li>Drove cross-functional alignment with product, design, and marketing — translated business goals into technical plans and shipped them on time.</li>
+    </ul>
+  </div>
+
+  <hr class="divider-light" />
+
+  <div class="job">
+    <div class="job-header">
+      <span class="job-title">Staff Software Engineer – Invoicing Tech Lead</span>
+      <span class="job-date">May 2023 – Aug 2024</span>
+    </div>
+    <div class="job-company">Jobber – Remote (Calgary, AB)</div>
+    <div class="job-tech">TypeScript, React, React Native, Ruby on Rails, GraphQL, Stripe, AWS</div>
+    <ul>
+      <li>Owned and hardened the invoicing systems behind multi-billion-dollar annual transaction volumes across ACH and credit card rails.</li>
+      <li>Led the integration of direct ACH payments — a complex cross-system effort that unlocked enterprise clients and increased transaction confidence.</li>
+      <li>Introduced structured technical planning and proactive release monitoring, cutting rework and reducing time-to-detect for deployment issues.</li>
+    </ul>
+  </div>
+
+  <hr class="divider-light" />
+
+  <div class="job">
+    <div class="job-header">
+      <span class="job-title">Staff Software Engineer & Team Lead</span>
+      <span class="job-date">Oct 2019 – May 2023</span>
+    </div>
+    <div class="job-company">Neo Financial – Calgary, AB</div>
+    <div class="job-tech">TypeScript, GraphQL, MongoDB, Serverless, Terraform, AWS</div>
+    <ul>
+      <li>Employee #22. Helped scale from zero to 1M+ users and ~800 employees through 3.5 years of hypergrowth.</li>
+      <li>Architected the in-house payment processor from scratch — card issuance, activation, replacement, and a real-time rewards engine that became Neo's core product differentiator.</li>
+      <li>Led performance refactors that took critical pages from ~5s to ~400ms, directly improving retention and engagement metrics.</li>
+      <li>Grew multiple engineers from senior to team lead, building the leadership bench the org needed to scale.</li>
+    </ul>
+  </div>
+
+  <hr class="divider-light" />
+
+  <div class="job">
+    <div class="job-header">
+      <span class="job-title">Senior Software Engineer</span>
+      <span class="job-date">Mar 2019 – Oct 2019</span>
+    </div>
+    <div class="job-company">Osperity – Calgary, AB</div>
+    <div class="job-tech">Ember.js</div>
+    <ul>
+      <li>Primary frontend engineer for a SaaS smart-camera platform, delivering pixel-perfect UIs from high-fidelity designs within a small, fast-moving team.</li>
+    </ul>
+  </div>
+
+  <hr class="divider-light" />
+
+  <div class="job">
+    <div class="job-header">
+      <span class="job-title">Software Engineer</span>
+      <span class="job-date">May 2015 – Mar 2019</span>
+    </div>
+    <div class="job-company">Replicon – Calgary, AB</div>
+    <div class="job-tech">Kotlin, JavaScript, Node.js, React, GraphQL, DynamoDB, Kafka</div>
+    <ul>
+      <li>Progressed from test automation to software engineering, adopting GraphQL, React, and Kotlin early. Full-stack feature development for enterprise customers.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="section">
+  <h2>Skills</h2>
+  <div class="skills-grid">
+    <span class="skills-label">Languages</span>
+    <span>TypeScript, JavaScript, Elixir, Ruby, Kotlin, Node.js</span>
+    <span class="skills-label">Frontend</span>
+    <span>React, React Native, Next.js, Vue/Nuxt, Ember</span>
+    <span class="skills-label">Data</span>
+    <span>PostgreSQL, MongoDB, DynamoDB, Redis, GraphQL, REST</span>
+    <span class="skills-label">Cloud & Infra</span>
+    <span>AWS (Lambda, ECS/Fargate, S3, SQS, KMS), Terraform, Docker, GitHub Actions, Cloudflare Workers</span>
+    <span class="skills-label">Architecture</span>
+    <span>Event-Driven, Microservices, Domain-Driven Design, Serverless</span>
+  </div>
+</div>
+
+<div class="section">
+  <h2>Education</h2>
+  <div class="education-line">
+    <span><strong>University of Calgary</strong> — B.Sc. Computer Science</span>
+    <span class="job-date">2015</span>
+  </div>
+</div>
+
+<div class="section">
+  <h2>Projects</h2>
+  <div class="projects-grid">
+    <div>
+      <span class="project-name">Behind the Screen</span>
+      <span class="project-desc"> — D&D 5e encounter manager and combat tracker (Next.js, TypeScript, MongoDB)</span>
+    </div>
+    <div>
+      <span class="project-name">DME Mastra</span>
+      <span class="project-desc"> — AI agent-based D&D loot/NPC generator built with the Mastra framework</span>
+    </div>
+    <div>
+      <span class="project-name">Fitness Fam</span>
+      <span class="project-desc"> — Workout routine PWA (<a href="https://fitnessfam.app">fitnessfam.app</a>)</span>
+    </div>
+    <div>
+      <span class="project-name">Practice Pal</span>
+      <span class="project-desc"> — Music practice tracker (<a href="https://practicepal.app">practicepal.app</a>)</span>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

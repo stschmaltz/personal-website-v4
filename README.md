@@ -1,21 +1,45 @@
-# Shane Schmaltz's Personal Website (Temporary Version)
+# shaneschmaltz.com
 
-## Overview
+Personal website built with React, TypeScript, Tailwind CSS v4, and Vite. Deployed on Vercel.
 
-This is a temporary landing page for my personal website that I crafted with Svelte! It serves as a placeholder while I work on a fancier version, my old site was getting very out of date.
+## Getting Started
 
-## Features
+```bash
+npm install
+npm run dev
+```
 
-- **Created with Svelte:** Utilizes the innovative and reactive Svelte framework for a lightweight and efficient user experience.
-- **Professional Background:** Provides insights into my current role, past experiences, and my journey within the tech industry.
-- **Tech Stack:** Outlines the programming languages, frameworks, and tools I specialize in.
-- **Side Projects:** Highlights a selection of personal projects showcasing my interests and skills.
-- **Hobbies:** Offers a glimpse into what I enjoy outside of my professional life.
+## Scripts
 
-## Project Status
+| Command           | Description                  |
+| ----------------- | ---------------------------- |
+| `npm run dev`     | Start dev server             |
+| `npm run build`   | TypeScript check + build     |
+| `npm run preview` | Preview production build     |
+| `npm run lint`    | Lint with ESLint             |
 
-This website is a temporary version designed to share a snapshot of my professional profile and personal interests while the comprehensive update to my site is underway. The upcoming version will more fully reflect my recent projects, technical skills, and the work I'm passionate about. Stay tuned for the full site's launch!
+## Tech Stack
 
-## Copyright
+- **Framework:** React 19 + TypeScript
+- **Styling:** Tailwind CSS v4 with custom alpine color palette
+- **Build:** Vite
+- **Deploy:** Vercel (static)
 
-© 2024 Shane Schmaltz.
+## Project Structure
+
+```
+src/
+  components/
+    Navbar.tsx       # Sticky nav with scroll effect + mobile menu
+    Hero.tsx         # Full-viewport hero with background image
+    About.tsx        # Bio, tags, stats
+    Experience.tsx   # Work history cards
+    Projects.tsx     # Project card grid
+    Contact.tsx      # Email CTA + social links
+    Footer.tsx       # Minimal footer
+  assets/
+    hero-bg.png      # Hero/about background image
+  App.tsx            # Composes all sections
+  main.tsx           # Entry point
+  index.css          # Tailwind config + custom theme
+```

@@ -1,2 +1,1 @@
-
-Copyright (C) 2024 shane schmaltz
+Copyright (C) 2026 shane schmaltz
