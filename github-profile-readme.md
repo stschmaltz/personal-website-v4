@@ -77,7 +77,7 @@ I care about building the right thing for the user, owning complex systems end t
 
 | | Project | What | Stack |
 |:---:|---------|------|-------|
-| 🐉 | **[Behind the Screen](https://github.com/stschmaltz/behind-the-screen)** | D&D 5e encounter manager & combat tracker | Next.js · TypeScript · MongoDB |
+| 🐉 | **[Behind the Screen](https://www.encountermanager.com)** | D&D 5e encounter manager & combat tracker | Next.js · TypeScript · MongoDB |
 | 🤖 | **[DME Mastra](https://github.com/stschmaltz/dme-mastra)** | AI agent D&D loot/NPC generator | Mastra · TypeScript |
 | 🎵 | **[Practice Pal](https://practicepal.app)** | Music practice tracker | Nuxt.js · TypeScript · Firebase |
 | 💪 | **[Fitness Fam](https://fitnessfam.app)** | Workout routine PWA | Next.js · TypeScript · MongoDB |

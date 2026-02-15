@@ -6,7 +6,7 @@ const PROJECTS = [
     description:
       "I DM a lot. Got tired of juggling paper and tabs mid-combat, so I built a proper encounter and initiative tracker.",
     tags: ["Next.js", "TypeScript", "MongoDB"],
-    link: "https://github.com/stschmaltz/behind-the-screen",
+    link: "https://www.encountermanager.com",
   },
   {
     name: "DME Mastra",

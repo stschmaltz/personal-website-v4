@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 
 type NavItem =
-  | { label: string; href: string; type: "hash" }
+  | { label: string; href: string; type: "hash"; standout?: boolean }
   | { label: string; to: string; type: "route" };
 
 const NAV_ITEMS: NavItem[] = [
@@ -11,7 +11,7 @@ const NAV_ITEMS: NavItem[] = [
   { label: "Projects", href: "#projects", type: "hash" },
   { label: "Resume", to: "/resume", type: "route" },
   { label: "Personal", to: "/personal", type: "route" },
-  { label: "Contact", href: "#contact", type: "hash" },
+  { label: "Contact", href: "#contact", type: "hash", standout: true },
 ];
 
 export default function Navbar() {
@@ -54,7 +54,11 @@ export default function Navbar() {
                 <a
                   href={item.href}
                   onClick={() => handleHashClick(item.href)}
-                  className="text-sm font-medium text-silver transition-colors hover:text-frost"
+                  className={`text-sm font-medium transition-colors ${
+                    item.standout
+                      ? "text-moonlight border border-frost rounded-md px-3 py-1 hover:bg-frost/15"
+                      : "text-silver hover:text-frost"
+                  }`}
                 >
                   {item.label}
                 </a>
