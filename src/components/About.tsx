@@ -14,6 +14,7 @@ const TAGS = [
     color: "bg-blossom/15 text-petal border-blossom/25",
   },
   { label: "Snowboarder", color: "bg-ember/15 text-ember border-ember/25" },
+  { label: "Music Lover", color: "bg-glacier/15 text-glacier border-glacier/25" },
 ];
 
 const STATS = [
@@ -33,7 +34,7 @@ export default function About() {
             </h2>
 
             <p className="mt-6 leading-relaxed text-silver">
-              I'm a staff engineer based in Calgary, currently building at
+              I'm a staff engineer based in Calgary, Canada, currently building at
               EdVisorly. I've spent my career at startups and high-growth
               companies — joining early, building core systems from scratch,
               and figuring out what to ship next alongside the people who use it.
