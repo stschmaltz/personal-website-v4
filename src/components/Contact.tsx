@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const SOCIAL_LINKS = [
   {
     label: "GitHub",
@@ -40,14 +42,12 @@ export default function Contact() {
         </a>
 
         <div className="mt-4">
-          <a
-            href="/resume.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            to="/resume"
             className="text-sm text-stone transition-colors hover:text-frost"
           >
-            Resume (possibly outdated)
-          </a>
+            View my resume
+          </Link>
         </div>
 
         <div className="mt-12 flex items-center justify-center gap-6">

@@ -17,8 +17,8 @@ const TAGS = [
 ];
 
 const STATS = [
-  { value: "10+", label: "Years of experience" },
-  { value: "44", label: "Public repos" },
+  { value: "10+", label: "Years building" },
+  { value: "Staff", label: "Level engineer" },
   { value: "∞", label: "Things left to learn" },
 ];
 
@@ -39,9 +39,10 @@ export default function About() {
               and figuring out what to ship next alongside the people who use it.
             </p>
             <p className="mt-4 leading-relaxed text-silver">
-              Outside of work I'm usually snowboarding in the Rockies, playing
-              drums badly in my garage, running D&D campaigns for friends, or
-              digging through playlists for something I haven't heard yet.
+              Outside of work I'm usually snowboarding in the Rockies, 3D printing
+              something I'll never finish, playing drums in my garage, or running
+              D&D campaigns that go off the rails. I live with my wife and two cats
+              who run the house.
             </p>
 
             <div className="mt-8 flex flex-wrap gap-3">

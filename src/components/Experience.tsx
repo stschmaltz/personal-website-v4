@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const EXPERIENCE = [
   {
     role: "Staff Software Engineer",
@@ -36,6 +38,14 @@ export default function Experience() {
         <h2 className="text-3xl font-bold tracking-tight text-glacier sm:text-4xl">
           Experience
         </h2>
+
+        <p className="mt-4 text-silver">
+          A few highlights — see my{" "}
+          <Link to="/resume" className="text-glacier transition-colors hover:text-frost">
+            full resume
+          </Link>{" "}
+          for the complete picture.
+        </p>
 
         <div className="mt-12 space-y-8">
           {EXPERIENCE.map((job) => (

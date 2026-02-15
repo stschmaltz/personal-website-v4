@@ -13,7 +13,16 @@ export default function Footer() {
           >
             Outway Howl Crews
           </a>
-          . Great sock brand, I own many - go buy some.
+          . Great sock brand, I own many -{" "}
+          <a
+            href="https://outway.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-stone transition-colors hover:text-frost"
+          >
+            go buy some
+          </a>
+          .
         </p>
         <div className="flex gap-6">
           <a

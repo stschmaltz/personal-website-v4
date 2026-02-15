@@ -1,10 +1,25 @@
+import { useEffect } from "react";
+import { Routes, Route, useLocation } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import About from "./components/About";
-import Experience from "./components/Experience";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import HomePage from "./pages/HomePage";
+import ResumePage from "./pages/ResumePage";
+import PersonalPage from "./pages/PersonalPage";
+
+function ScrollToHash() {
+  const { hash } = useLocation();
+
+  useEffect(() => {
+    if (hash) {
+      const el = document.querySelector(hash);
+      if (el) {
+        setTimeout(() => el.scrollIntoView({ behavior: "smooth" }), 0);
+      }
+    }
+  }, [hash]);
+
+  return null;
+}
 
 export default function App() {
   return (
@@ -15,13 +30,14 @@ export default function App() {
       >
         Skip to content
       </a>
+      <ScrollToHash />
       <Navbar />
       <main id="main">
-        <Hero />
-        <About />
-        <Experience />
-        <Projects />
-        <Contact />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/resume" element={<ResumePage />} />
+          <Route path="/personal" element={<PersonalPage />} />
+        </Routes>
       </main>
       <Footer />
     </>
