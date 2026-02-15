@@ -1,4 +1,5 @@
 import aboutPhoto from "../assets/about-photo.webp";
+import { useFadeIn } from "../hooks/useFadeIn";
 
 const TAGS = [
   {
@@ -24,9 +25,14 @@ const STATS = [
 ];
 
 export default function About() {
+  const { ref, visible } = useFadeIn<HTMLDivElement>();
+
   return (
     <section id="about" className="scroll-mt-20 bg-deep-night py-24 lg:py-32">
-      <div className="mx-auto max-w-6xl px-6">
+      <div
+        ref={ref}
+        className={`mx-auto max-w-6xl px-6 fade-in-up ${visible ? "visible" : ""}`}
+      >
         <div className="grid items-center gap-12 lg:grid-cols-2">
           <div>
             <h2 className="text-3xl font-bold tracking-tight text-glacier sm:text-4xl">

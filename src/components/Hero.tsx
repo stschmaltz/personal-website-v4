@@ -1,6 +1,17 @@
+import { useEffect, useState } from "react";
 import heroBg from "../assets/hero-bg.webp";
 
 export default function Hero() {
+  const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    const id = requestAnimationFrame(() => setVisible(true));
+    return () => cancelAnimationFrame(id);
+  }, []);
+
+  const cls = (delay: string) =>
+    `fade-in-up ${visible ? "visible" : ""} ${delay}`;
+
   return (
     <section className="relative flex min-h-screen items-center overflow-hidden">
       <img
@@ -27,22 +38,22 @@ export default function Hero() {
 
       <div className="relative z-10 mx-auto w-full max-w-6xl px-6 py-32">
         <div className="max-w-2xl">
-          <h1 className="text-5xl font-extrabold leading-tight tracking-tight sm:text-6xl lg:text-7xl">
+          <h1 className={`text-5xl font-extrabold leading-tight tracking-tight sm:text-6xl lg:text-7xl ${cls("delay-1")}`}>
             Hi, I'm{" "}
             <span className="text-frost">Shane</span>.
           </h1>
-          <p className="mt-4 text-5xl font-extrabold leading-tight tracking-tight sm:text-6xl lg:text-7xl">
+          <p className={`mt-4 text-5xl font-extrabold leading-tight tracking-tight sm:text-6xl lg:text-7xl ${cls("delay-2")}`}>
             I build products that{" "}
             <span className="text-blossom">scale</span>.
           </p>
 
-          <p className="mt-6 max-w-lg text-lg leading-relaxed text-silver">
+          <p className={`mt-6 max-w-lg text-lg leading-relaxed text-silver ${cls("delay-3")}`}>
             Staff engineer with over a decade at startups and high-growth companies.
             I care deeply about building the right thing for the user,
             owning complex systems, and leveling up the people around me.
           </p>
 
-          <div className="mt-10 flex flex-wrap gap-4">
+          <div className={`mt-10 flex flex-wrap gap-4 ${cls("delay-4")}`}>
             <a
               href="#projects"
               className="rounded-lg bg-glacier px-6 py-3 text-sm font-semibold text-moonlight transition-colors hover:bg-frost"

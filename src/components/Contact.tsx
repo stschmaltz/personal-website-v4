@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { useFadeIn } from "../hooks/useFadeIn";
 
 const SOCIAL_LINKS = [
   {
@@ -22,9 +23,14 @@ const SOCIAL_LINKS = [
 ];
 
 export default function Contact() {
+  const { ref, visible } = useFadeIn<HTMLDivElement>();
+
   return (
     <section id="contact" className="scroll-mt-20 bg-alpine-black py-24 lg:py-32">
-      <div className="mx-auto max-w-6xl px-6 text-center">
+      <div
+        ref={ref}
+        className={`mx-auto max-w-6xl px-6 text-center fade-in-up ${visible ? "visible" : ""}`}
+      >
         <h2 className="text-3xl font-bold tracking-tight text-glacier sm:text-4xl">
           Get In Touch
         </h2>

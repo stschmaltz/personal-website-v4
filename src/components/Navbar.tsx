@@ -44,7 +44,7 @@ export default function Navbar() {
           to="/"
           className="text-xl font-bold tracking-tight text-moonlight hover:text-frost transition-colors"
         >
-          Shane
+          Shane Schmaltz
         </Link>
 
         <ul className="hidden items-center gap-8 md:flex">

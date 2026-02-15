@@ -1,3 +1,5 @@
+import { useFadeIn } from "../hooks/useFadeIn";
+
 const PROJECTS = [
   {
     name: "Behind the Screen",
@@ -30,9 +32,14 @@ const PROJECTS = [
 ];
 
 export default function Projects() {
+  const { ref, visible } = useFadeIn<HTMLDivElement>();
+
   return (
     <section id="projects" className="scroll-mt-20 bg-deep-night py-24 lg:py-32">
-      <div className="mx-auto max-w-6xl px-6">
+      <div
+        ref={ref}
+        className={`mx-auto max-w-6xl px-6 fade-in-up ${visible ? "visible" : ""}`}
+      >
         <h2 className="text-3xl font-bold tracking-tight text-glacier sm:text-4xl">
           Projects
         </h2>
