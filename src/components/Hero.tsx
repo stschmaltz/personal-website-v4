@@ -1,4 +1,4 @@
-import heroBg from "../assets/hero-bg.png";
+import heroBg from "../assets/hero-bg.webp";
 
 export default function Hero() {
   return (
@@ -6,6 +6,10 @@ export default function Hero() {
       <img
         src={heroBg}
         alt=""
+        width={1024}
+        height={682}
+        fetchPriority="high"
+        decoding="async"
         className="absolute inset-0 h-full w-full object-cover object-center"
       />
 

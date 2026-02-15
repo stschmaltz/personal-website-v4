@@ -1,4 +1,4 @@
-import aboutPhoto from "../assets/about-photo.png";
+import aboutPhoto from "../assets/about-photo.webp";
 
 const TAGS = [
   {
@@ -71,7 +71,10 @@ export default function About() {
             <img
               src={aboutPhoto}
               alt="Shane snowboarding in the Canadian Rockies"
+              width={925}
+              height={1024}
               loading="lazy"
+              decoding="async"
               className="h-full w-full object-cover"
             />
             <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-deep-night/80 via-deep-teal/20 to-transparent" />
