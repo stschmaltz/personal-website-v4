@@ -2,7 +2,7 @@
 
 ![header](https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,30:124447,60:2F7F85,100:E63E96&height=200&section=header&text=Shane%20Schmaltz&fontSize=42&fontColor=E8ECEF&fontAlignY=35&desc=Staff%20Software%20Engineer%20%C2%B7%20Calgary%2C%20AB%20%F0%9F%87%A8%F0%9F%87%A6&descSize=16&descAlignY=55&descColor=B8C1C5&animation=fadeIn)
 
-[🌐 shaneschmaltz.com](https://www.shaneschmaltz.com) &nbsp;·&nbsp; [💼 LinkedIn](https://www.linkedin.com/in/stschmaltz/) &nbsp;·&nbsp; [✉️ Email](mailto:stschmaltz@gmail.com)
+[🌐 shaneschmaltz.com](https://www.shaneschmaltz.com) &nbsp;·&nbsp; [💼 LinkedIn](https://www.linkedin.com/in/stschmaltz/) &nbsp;·&nbsp; [✉️ Email](mailto:stschmaltz@gmail.com) &nbsp;·&nbsp; [📝 Resume](https://www.shaneschmaltz.com/resume)
 
 </div>
 
@@ -10,7 +10,7 @@
 
 ### 👋 &nbsp;About Me
 
-10+ years building and scaling products at startups and high-growth companies. Currently at **[EdVisorly](https://www.edvisorly.com)**, helping students navigate college-transfer pathways.
+Over a decade building and scaling products at startups and high-growth companies. Currently a Staff Software Engineer at **[EdVisorly](https://www.edvisorly.com)**, helping students navigate college-transfer pathways leveraging the ever-evolving power of AI tools.
 
 I care about building the right thing for the user, owning complex systems end to end, and leveling up the people around me.
 
@@ -53,6 +53,34 @@ I care about building the right thing for the user, owning complex systems end t
 
 &nbsp;
 
+### 🚧 &nbsp;Side Projects
+
+|     | Project                                                            | What                                                       | Stack                                    |
+| :-: | ------------------------------------------------------------------ | ---------------------------------------------------------- | ---------------------------------------- |
+| 🐉  | **[Behind the Screen](https://www.encountermanager.com)**          | Dunegons and Dragons 5e encounter manager & combat tracker | Next.js · TypeScript · MongoDB           |
+| 🤖  | **[DME Mastra](https://github.com/stschmaltz/dme-mastra)**         | AI agent Dunegons and Dragons loot/NPC generator           | Mastra · TypeScript                      |
+| 🎵  | **[Practice Pal](https://practicepal.app)**                        | Music practice tracker                                     | Nuxt.js · TypeScript · Firebase          |
+| 💪  | **[Fitness Fam](https://fitnessfam.app)**                          | Workout routine PWA                                        | Next.js · TypeScript · MongoDB           |
+| 🚀  | **[Starfinder App](https://github.com/stschmaltz/starfinder-app)** | Starfinder TTRPG character sheet manager                   | Next.js · TypeScript · GraphQL · MongoDB |
+| 🌐  | **[shaneschmaltz.com](https://www.shaneschmaltz.com)**             | Personal website                                           | React · Vite · Tailwind                  |
+
+&nbsp;
+
+### 🎲 &nbsp;When I'm Not Coding
+
+<table>
+  <tr>
+    <td align="center" width="150">🏂<br><b>Snowboarding</b><br><sub>Rockies every chance I get</sub></td>
+    <td align="center" width="150">🖨️<br><b>3D Printing</b><br><sub>Minis, organizers, you name it</sub></td>
+    <td align="center" width="150">🥁<br><b>Drumming</b><br><sub>Self-taught, learning covers</sub></td>
+    <td align="center" width="150">🐉<br><b>Dunegons and Dragons</b><br><sub>Happily DMing</sub></td>
+    <td align="center" width="150">🎵<br><b>Music</b><br><sub>Send me recs</sub></td>
+    <td align="center" width="150">🐈<br><b>Cats</b><br><sub>They run the house</sub></td>
+  </tr>
+</table>
+
+&nbsp;
+
 ### ⚡ &nbsp;Tech Stack
 
 <div align="center">
@@ -72,36 +100,6 @@ I care about building the right thing for the user, owning complex systems end t
 </div>
 
 &nbsp;
-
-### 🚧 &nbsp;Side Projects
-
-| | Project | What | Stack |
-|:---:|---------|------|-------|
-| 🐉 | **[Behind the Screen](https://www.encountermanager.com)** | D&D 5e encounter manager & combat tracker | Next.js · TypeScript · MongoDB |
-| 🤖 | **[DME Mastra](https://github.com/stschmaltz/dme-mastra)** | AI agent D&D loot/NPC generator | Mastra · TypeScript |
-| 🎵 | **[Practice Pal](https://practicepal.app)** | Music practice tracker | Nuxt.js · TypeScript · Firebase |
-| 💪 | **[Fitness Fam](https://fitnessfam.app)** | Workout routine PWA | Next.js · TypeScript · MongoDB |
-| 🚀 | **[Starfinder App](https://github.com/stschmaltz/starfinder-app)** | Starfinder TTRPG character sheet manager | Next.js · TypeScript · GraphQL · MongoDB |
-| 🌐 | **[shaneschmaltz.com](https://www.shaneschmaltz.com)** | Personal website | React · Vite · Tailwind |
-
-&nbsp;
-
-### 🎲 &nbsp;When I'm Not Coding
-
-<table>
-  <tr>
-    <td align="center" width="150">🏂<br><b>Snowboarding</b><br><sub>Rockies every chance I get</sub></td>
-    <td align="center" width="150">🖨️<br><b>3D Printing</b><br><sub>Minis, organizers, you name it</sub></td>
-    <td align="center" width="150">🥁<br><b>Drumming</b><br><sub>Self-taught, learning covers</sub></td>
-    <td align="center" width="150">🐉<br><b>D&D</b><br><sub>Forever DM</sub></td>
-    <td align="center" width="150">🎵<br><b>Music</b><br><sub>Send me recs</sub></td>
-    <td align="center" width="150">🐈<br><b>Cats</b><br><sub>They run the house</sub></td>
-  </tr>
-</table>
-
-&nbsp;
-
-### 📊 &nbsp;Stats
 
 <div align="center">
   <picture>

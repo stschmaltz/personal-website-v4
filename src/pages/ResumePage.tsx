@@ -147,14 +147,6 @@ export default function ResumePage() {
               </Link>
             </p>
           </div>
-          <a
-            href="/resume.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="rounded-lg border border-glacier px-4 py-2 text-sm font-medium text-glacier transition-colors hover:bg-glacier hover:text-moonlight"
-          >
-            Download PDF
-          </a>
         </div>
 
         <div className="h-px bg-glacier/40" />
