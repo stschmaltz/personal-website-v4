@@ -2,20 +2,11 @@ import aboutPhoto from "../assets/about-photo.webp";
 import { useFadeIn } from "../hooks/useFadeIn";
 
 const TAGS = [
-  {
-    label: "Systems Builder",
-    color: "bg-glacier/20 text-frost border-glacier/30",
-  },
-  {
-    label: "AI Tinkerer",
-    color: "bg-deep-teal/30 text-frost border-deep-teal/40",
-  },
-  {
-    label: "Dungeon Master",
-    color: "bg-blossom/15 text-petal border-blossom/25",
-  },
+  { label: "Systems Builder", color: "bg-glacier/20 text-frost border-glacier/30" },
+  { label: "AI Tinkerer", color: "bg-petal/12 text-petal border-petal/25" },
   { label: "Snowboarder", color: "bg-ember/15 text-ember border-ember/25" },
-  { label: "Music Lover", color: "bg-glacier/15 text-glacier border-glacier/25" },
+  { label: "Dungeon Master", color: "bg-[#7c3aed]/15 text-[#a78bfa] border-[#7c3aed]/25" },
+  { label: "Music Lover", color: "bg-[#0ea5e9]/15 text-[#38bdf8] border-[#0ea5e9]/25" },
 ];
 
 const STATS = [
