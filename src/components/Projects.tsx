@@ -11,7 +11,7 @@ const PROJECTS = [
   {
     name: "DME Mastra",
     description:
-      "AI-powered D&D loot and NPC generator. Built with the Mastra agent framework — point it at SRD data and let it create encounters.",
+      "AI-powered D&D loot and NPC generator. Built with the Mastra agent framework. Point it at SRD data and let it create encounters.",
     tags: ["TypeScript", "Mastra", "AI Agents"],
     link: "https://github.com/stschmaltz/dme-mastra",
   },

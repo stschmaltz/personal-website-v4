@@ -9,7 +9,7 @@ const EXPERIENCE = [
     tech: "TypeScript, React, Next.js, Node.js, PostgreSQL, AWS",
     bullets: [
       "Edtech startup using AI to help students navigate college-transfer pathways.",
-      "Full ownership across the stack — architecture, feature development, infrastructure, and shipping directly to users.",
+      "Full ownership across the stack: architecture, feature development, infrastructure, and shipping directly to users.",
     ],
   },
   {
@@ -19,9 +19,9 @@ const EXPERIENCE = [
     period: "Aug 2024 – Mar 2025",
     tech: "Elixir, GraphQL, TypeScript, React, AWS",
     bullets: [
-      "Led the Payments team at a salon and spa SaaS platform handling multi-million-dollar daily transaction volumes in Elixir — owned architecture decisions, technical scoping, and delivery.",
+      "Led the Payments team at a salon and spa SaaS platform handling multi-million-dollar daily transaction volumes in Elixir. Owned architecture decisions, technical scoping, and delivery.",
       "Managed five engineers while staying hands-on. Ran 1:1s, code reviews, and mentorship focused on leveling engineers up, not just keeping them busy.",
-      "Drove cross-functional alignment with product, design, and marketing — translated business goals into technical plans and shipped them on time.",
+      "Drove cross-functional alignment with product, design, and marketing. Translated business goals into technical plans and shipped them on time.",
     ],
   },
   {
@@ -32,7 +32,7 @@ const EXPERIENCE = [
     tech: "TypeScript, React, React Native, Ruby on Rails, GraphQL, Stripe, AWS",
     bullets: [
       "Owned and hardened the invoicing systems behind multi-billion-dollar annual transaction volumes across ACH and credit card rails.",
-      "Led the integration of direct ACH payments — a complex cross-system effort that unlocked enterprise clients and increased transaction confidence.",
+      "Led the integration of direct ACH payments, a complex cross-system effort that unlocked enterprise clients and increased transaction confidence.",
       "Introduced structured technical planning and proactive release monitoring, cutting rework and reducing time-to-detect for deployment issues.",
     ],
   },
@@ -44,7 +44,7 @@ const EXPERIENCE = [
     tech: "TypeScript, GraphQL, MongoDB, Serverless, Terraform, AWS",
     bullets: [
       "Employee #22. Helped scale from zero to 1M+ users and ~800 employees through 3.5 years of hypergrowth.",
-      "Built the real-time rewards engine from scratch — became Neo's core product differentiator. Led the card team across issuance, activation, and replacement.",
+      "Built the real-time rewards engine from scratch. It became Neo's core product differentiator. Led the card team across issuance, activation, and replacement.",
       "Led performance refactors that took critical pages from ~5s to ~400ms, directly improving retention and engagement metrics.",
       "Grew multiple engineers from senior to team lead, building the leadership bench the org needed to scale.",
     ],
@@ -162,7 +162,7 @@ export default function ResumePage() {
                   <h3 className="text-lg font-bold text-moonlight">{job.title}</h3>
                   <span className="text-sm text-stone">{job.period}</span>
                 </div>
-                <p className="text-sm text-silver">{job.company} — {job.location}</p>
+                <p className="text-sm text-silver">{job.company}, {job.location}</p>
                 <p className="mt-1 text-xs italic text-stone">{job.tech}</p>
                 <ul className="mt-3 space-y-1.5 text-sm leading-relaxed text-silver">
                   {job.bullets.map((bullet, i) => (
@@ -197,7 +197,7 @@ export default function ResumePage() {
           <h2 className="text-xs font-bold uppercase tracking-widest text-glacier">Education</h2>
           <div className="mt-6 flex flex-wrap items-baseline justify-between gap-2">
             <p className="text-sm text-moonlight">
-              <span className="font-semibold">University of Calgary</span> — B.Sc. Computer Science
+              <span className="font-semibold">University of Calgary</span>, B.Sc. Computer Science
             </p>
             <span className="text-sm text-stone">2015</span>
           </div>
@@ -218,7 +218,7 @@ export default function ResumePage() {
                   {project.description}
                   {project.link && (
                     <>
-                      {" — "}
+                      {" - "}
                       <a
                         href={project.link}
                         target="_blank"

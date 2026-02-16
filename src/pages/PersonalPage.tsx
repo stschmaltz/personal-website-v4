@@ -4,13 +4,13 @@ const INTERESTS = [
   {
     title: "Snowboarding",
     description:
-      "I ride as much as I can in the Canadian Rockies. Lake Louise, Sunshine, Kicking Horse — wherever the snow is good. It's the thing that clears my head the most.",
+      "I ride as much as I can in the Canadian Rockies. Lake Louise, Sunshine, Kicking Horse, wherever the snow is good. It's the thing that clears my head the most.",
     emoji: "🏂",
   },
   {
     title: "3D Printing",
     description:
-      "I'm always printing something — organizers, minis for D&D, stuff for around the house. It's one of those hobbies where every finished print gives you three new ideas.",
+      "I'm always printing something. Organizers, minis for D&D, stuff for around the house. Every finished print gives you three new ideas.",
     emoji: "🖨️",
   },
   {
@@ -34,7 +34,7 @@ const INTERESTS = [
   {
     title: "Music",
     description:
-      "Always digging for something new. I listen to a bit of everything — if you have a recommendation, send it my way.",
+      "Always digging for something new. I listen to a bit of everything, so if you have a recommendation, send it my way.",
     emoji: "🎵",
   },
 ];

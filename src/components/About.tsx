@@ -33,7 +33,7 @@ export default function About() {
             <p className="mt-6 leading-relaxed text-silver">
               I'm a staff engineer based in Calgary, Canada, currently building at
               EdVisorly. I've spent my career at startups and high-growth
-              companies — joining early, building core systems from scratch,
+              companies, joining early, building core systems from scratch,
               and figuring out what to ship next alongside the people who use it.
             </p>
             <p className="mt-4 leading-relaxed text-silver">

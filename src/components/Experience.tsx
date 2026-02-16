@@ -21,7 +21,7 @@ const EXPERIENCE = [
     company: "Jobber",
     period: "Previously",
     description:
-      "Home service SaaS. Invoicing tech lead — hardened billing systems, led ACH integration, and owned the invoicing domain across web and mobile.",
+      "Home service SaaS. Invoicing tech lead. Hardened billing systems, led ACH integration, and owned the invoicing domain across web and mobile.",
   },
   {
     role: "Staff Software Engineer & Team Lead",
@@ -46,7 +46,7 @@ export default function Experience() {
         </h2>
 
         <p className="mt-4 text-silver">
-          A few highlights — see my{" "}
+          A few highlights. See my{" "}
           <Link to="/resume" className="text-glacier transition-colors hover:text-frost">
             full resume
           </Link>{" "}
