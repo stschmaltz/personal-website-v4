@@ -6,8 +6,8 @@ import HomePage from "./pages/HomePage";
 import ResumePage from "./pages/ResumePage";
 import PersonalPage from "./pages/PersonalPage";
 
-function ScrollToHash() {
-  const { hash } = useLocation();
+function ScrollManager() {
+  const { pathname, hash } = useLocation();
 
   useEffect(() => {
     if (hash) {
@@ -15,8 +15,10 @@ function ScrollToHash() {
       if (el) {
         setTimeout(() => el.scrollIntoView({ behavior: "smooth" }), 0);
       }
+    } else {
+      window.scrollTo(0, 0);
     }
-  }, [hash]);
+  }, [pathname, hash]);
 
   return null;
 }
@@ -30,7 +32,7 @@ export default function App() {
       >
         Skip to content
       </a>
-      <ScrollToHash />
+      <ScrollManager />
       <Navbar />
       <main id="main">
         <Routes>

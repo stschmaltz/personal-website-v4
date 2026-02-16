@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 const INTERESTS = [
@@ -42,10 +41,6 @@ const INTERESTS = [
 
 
 export default function PersonalPage() {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
-
   return (
     <div className="min-h-screen bg-alpine-black pt-24 pb-16">
       <div className="mx-auto max-w-4xl px-6">
