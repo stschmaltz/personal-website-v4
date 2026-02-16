@@ -20,14 +20,14 @@ const PROJECTS = [
     description:
       "A free PWA for building workout routines. Search a huge exercise catalogue, organize your splits, and track what you're doing.",
     tags: ["Next.js", "React", "GraphQL", "MongoDB"],
-    link: "https://github.com/stschmaltz/fitness-fam",
+    link: "https://fitnessfam.app",
   },
   {
     name: "Practice Pal",
     description:
       "I play drums and bass. This tracks practice sessions across instruments so I can see where my time actually goes.",
     tags: ["Nuxt.js", "Vue", "Firebase", "Tailwind"],
-    link: "https://github.com/stschmaltz/practice-pal",
+    link: "https://practicepal.app",
   },
 ];
 
