@@ -42,6 +42,11 @@ export default function Navbar() {
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         <Link
           to="/"
+          onClick={() => {
+            if (location.pathname === "/") {
+              window.scrollTo({ top: 0, behavior: "smooth" });
+            }
+          }}
           className="text-xl font-bold tracking-tight text-moonlight hover:text-frost transition-colors"
         >
           Shane Schmaltz
