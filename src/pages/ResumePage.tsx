@@ -154,8 +154,8 @@ export default function ResumePage() {
         <p className="mt-6 leading-relaxed text-silver">
           Staff-level engineer with over 10 years of experience building and scaling products at
           startups and high-growth companies. Comfortable owning complex systems end to end, leading
-          difficult refactors and migrations, and leveling up the engineers around me. I ship fast,
-          I build things that hold up and I'm not a jerk.
+          difficult refactors and migrations, and leveling up the engineers around me. I ship fast
+          and I build things that hold up.
         </p>
 
         <section className="mt-10">
